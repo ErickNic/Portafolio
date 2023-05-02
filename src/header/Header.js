@@ -7,7 +7,7 @@ const Header = () =>{
     return(
         <div className='header'>
                 <div className='header__desktopVersion'>
-                    <NavLink className="navlink" to='/'>Erick M.M.A</NavLink>
+                    <NavLink className="navlink" to='/'  exact>Erick M.M.A</NavLink>
                     <NavLinks/>
                 </div>
                 <div className='header__mobileVersion'>

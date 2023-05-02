@@ -4,13 +4,13 @@ const NavLinks = (props) =>{
     return(
         <ul>
             <li>
-                <NavLink to="/porfolio">Proyectos</NavLink>
+                <NavLink className="anchorHeader" to="/porfolio" exact>Proyectos</NavLink>
             </li>
             <li>
-                <NavLink to="/sobremi">Sobre mi</NavLink>
+                <NavLink className="anchorHeader" to="/sobremi" exact>Sobre mí</NavLink>
             </li>
             <li>
-                <NavLink to="/conectemos">conectemos</NavLink>
+                <NavLink className="anchorHeader" to="/conectemos" exact>Contáctame</NavLink>
             </li>
         </ul>
     );

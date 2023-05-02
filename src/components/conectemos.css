@@ -1,0 +1,17 @@
+a{
+    text-decoration:none
+}
+.correo:hover{
+    color: green;
+    text-decoration: underline;
+}
+.socialMedia__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.socialMedia__container > a{
+    margin-right: 2rem;
+}

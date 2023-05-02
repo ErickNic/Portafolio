@@ -1,6 +1,6 @@
 # Hey!👋
 
-Me llamo ***Erick Martin Meza Alonso** *y este es mi portafolio hecho en react.
+Me llamo ***Erick Martin Meza Alonso** y este es mi portafolio hecho en react.
 *A*ún está en construcción, pero pensé que que sería útil comportir mi progreso y mantenerlo en línea desde el comienzo para asegurarme poder regresar a una versión funcional en caso que haga una configuración desfavorable.
 
 Utilicé un boostraped react proyect ejecutando
