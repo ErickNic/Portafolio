@@ -5,13 +5,16 @@ a{
     color: green;
     text-decoration: underline;
 }
+.Main__Conectemos{
+    height: 56.8vh;
+}
 .socialMedia__container{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
-.socialMedia__container > a{
+.socialMedia__container > a:nth-child(1){
     margin-right: 2rem;
 }

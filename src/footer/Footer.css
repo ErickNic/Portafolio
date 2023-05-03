@@ -1,0 +1,14 @@
+.footer{
+    padding: 2rem;
+}
+.socialMedia__Footercontainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.textoAutor__footerContainer{
+    color: #585858;
+}
+.socialMedia__Footercontainer > a:nth-child(1){
+    margin-right: 2rem;
+}
