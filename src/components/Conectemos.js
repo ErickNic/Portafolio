@@ -5,7 +5,7 @@ const Conectemos = () =>{
     return(
     <div className="Main__Conectemos">
         <div>
-            <p>Contáctame</p>
+            <p className="contactameTitulo">Contáctame</p>
             <div>
                 <a className="correo" href="https://www.google.com" onClick={()=>{console.log('Onclick a tag')}}>pemma2022200245@gmail.com</a>
                 <div className="socialMedia__container">

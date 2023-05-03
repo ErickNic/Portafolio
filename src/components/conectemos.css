@@ -1,6 +1,10 @@
 a{
     text-decoration:none
 }
+.contactameTitulo{
+    font-size: 2rem;
+    font-weight: 900;
+}
 .correo:hover{
     color: green;
     text-decoration: underline;
@@ -13,8 +17,13 @@ a{
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
+    height: 100px;
 }
 
 .socialMedia__container > a:nth-child(1){
     margin-right: 2rem;
+}
+.socialMedia__container a:hover {
+    padding-bottom: 1.1rem;
+    transition: ease-in-out 150ms 0s;
 }
