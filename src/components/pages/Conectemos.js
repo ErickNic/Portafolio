@@ -1,9 +1,13 @@
 import React from "react";
-import './conectemos.css'
+import './conectemos.css';
+import { Helmet } from "react-helmet";
 
 const Conectemos = () =>{
     return(
     <div className="Main__Conectemos">
+        <Helmet>
+            <title>Conáctame | ErickMMA</title>
+        </Helmet>
         <div>
             <p className="contactameTitulo">Contáctame</p>
             <div>
