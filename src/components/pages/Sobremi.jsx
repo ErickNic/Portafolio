@@ -1,4 +1,3 @@
-import React from "react";
 import { Helmet } from "react-helmet";
 
 const Sobremi = () =>{
@@ -7,7 +6,7 @@ const Sobremi = () =>{
             <Helmet>
                 <title>Sobre mí | ErickMMA</title>
             </Helmet>
-            <p>"Sobre mí" main section</p>
+            <p>&quot;Sobre mí&quot; main section</p>
         </div>
     )
 }

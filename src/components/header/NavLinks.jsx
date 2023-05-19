@@ -1,6 +1,5 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
-const NavLinks = (props) =>{
+const NavLinks = () =>{
     return(
         <ul>
             <li>

@@ -1,12 +1,11 @@
-import React from 'react';
 import {
     Route,
     Routes
   } from 'react-router-dom';
-import Principal from '../components/Principal'
-import Portfolio from '../components/Portfolio';
-import Sobremi from '../components/Sobremi';
-import Conectemos from '../components/Conectemos';
+import Principal from '../pages/Principal';
+import Portfolio from '../pages/Portfolio';
+import Sobremi from '../pages/Sobremi';
+import Conectemos from '../pages/Conectemos';
 
 const Main = () =>{
     return(
