@@ -1,12 +1,13 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+
 const Sobremi = () =>{
     return(
         <div className="Main__SobreMi">
             <Helmet>
                 <title>Sobre mí | ErickMMA</title>
             </Helmet>
-            <p>Porfolio "Sobre mí" main section</p>
+            <p>"Sobre mí" main section</p>
         </div>
     )
 }

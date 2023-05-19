@@ -12,14 +12,14 @@ const Principal = () =>{
             </Helmet>
             <Hero/>
             <div className="Main__Tecnologías">
-                            <p>Tecnologías section</p>
-                        </div>
-                        <div className="Main__Tecnologías">
-                            <p>Sobre mí section</p>
-                        </div>
-                        <div className="Main__Portafolio">
-                            <p>Porfolio Section</p>
-                        </div>
+                <p>Tecnologías section</p>
+            </div>
+            <div className="Main__Tecnologías">
+                <p>Sobre mí section</p>
+            </div>
+            <div className="Main__Portafolio">
+                <p>Porfolio Section</p>
+            </div>
         </div>
     )
 }

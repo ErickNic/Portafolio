@@ -3,7 +3,11 @@
 *{
     margin:0;
     font-family: 'Roboto';
+    text-decoration: none;
     box-sizing: border-box;
+}
+*::selection{
+    background-color: rgb(230, 245, 228)  ;
 }
 .header__desktopVersion{
     margin-bottom: 3vh;
