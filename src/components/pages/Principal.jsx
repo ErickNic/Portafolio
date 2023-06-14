@@ -2,7 +2,7 @@ import React from "react";
 import Hero from '../hero/Hero';
 import clases from './principal.module.css'
 import { Helmet } from "react-helmet";
-
+import { algoData,ProyectCard } from "../ProyectCard/ProyectCard";
 
 const Principal = () =>{
     return(
@@ -15,7 +15,7 @@ const Principal = () =>{
                 <p>Tecnologías section</p>
             </div>
             <div className="Main__Portafolio">
-                <h3>Proyectos destacados</h3>
+                <ProyectCard items={algoData}/>
             </div>
         </div>
     )
