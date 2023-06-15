@@ -23,14 +23,14 @@ const Principal = () =>{
         <div className={clases.heroMainContainer}>
             <Helmet>
                 <title>ErickMMA - Desarrollador web</title>
-            </Helmet>
+            </Helmet> 
             {!onTransition && 
             <div>
                 <Hero/>
                 <div className="Main__Tecnologías">
                     <p>Tecnologías section</p>
                 </div>
-                <p onClick={seeProyectsHandler}>See recent Proyects</p>
+                <p onClick={seeProyectsHandler} style={{cursor:"pointer"}}>See recent Proyects</p>
             </div>
         }
             {!!onTransition && <div className="Main__Portafolio">
