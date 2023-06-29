@@ -11,7 +11,7 @@
     margin-bottom: 3rem;
 }
 .hero__caption{
-    width: 40rem;
+    max-width: 100%;
     text-justify: inter-word;
     text-align: justify;
 }

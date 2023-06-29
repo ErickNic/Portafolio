@@ -22,12 +22,13 @@
     }
 ]
 import react from 'react'
+import clases from './ProyectCard.module.css'
 
 const ProyectCard = (props) =>{
     const {items} = props;
     console.log('items',items[0].name)
     return(
-        <ul>
+        <ul className={clases.unordenedList}>
             {items.map(proyect=>{
                 return(
                     <li key={proyect.id}>
