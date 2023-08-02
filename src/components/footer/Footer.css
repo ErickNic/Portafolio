@@ -1,14 +1,36 @@
 .footer{
-    padding: 2rem;
-}
-.socialMedia__Footercontainer{
+    background-color: rgb(245 245 245);
+    height:  12.8vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
 }
 .textoAutor__footerContainer{
     color: #585858;
+    padding-left: 5rem;
 }
 .socialMedia__Footercontainer > a:nth-child(1){
     margin-right: 2rem;
+    
+}
+.sm_container{
+    display: flex;
+    align-items: center;
+}
+.sm_container > a{
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sm_container{
+    padding-right: 6rem;
+    width: auto;
+    height: auto;
+}
+.iconCodePen:hover,.iconGitHub:hover,.iconLinkedIn:hover{
+    transform:scale(1.1);
+    transition: ease-in-out 0.10s 40ms;
 }

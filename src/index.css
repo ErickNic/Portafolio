@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 *{
     margin:0;
     font-family: 'Roboto';
@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 *::selection{
-    background-color: rgb(230, 245, 228)  ;
+    background-color: #a0e297  ;
 }
 .header__desktopVersion{
     margin-bottom: 3vh;
@@ -22,9 +22,4 @@
 }
 .main{
     height: 75vh;
-}
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }

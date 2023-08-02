@@ -8,7 +8,7 @@ const Header = () =>{
         <div className='header'>
                 <div className='header__desktopVersion'>
                     <NavLink className="navlink" to='/'  exact>Erick M.M.A</NavLink>
-                    <NavLinks/>
+                    <NavLinks className="navlinks"/>
                 </div>
                 <div className='header__mobileVersion'>
                 </div>

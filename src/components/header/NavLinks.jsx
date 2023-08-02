@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 const NavLinks = () =>{
     return(
-        <ul>
+        <ul className="navBar">
             <li>
                 <NavLink className="anchorHeader" to="/porfolio" exact>Proyectos</NavLink>
             </li>
