@@ -13,8 +13,6 @@
 }
 .hero__caption{
     max-width: 100%;
-    text-justify: inter-word;
-    text-align: justify;
 }
 .hero__caption span{
     color: #091E06;

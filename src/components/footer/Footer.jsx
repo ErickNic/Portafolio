@@ -6,7 +6,7 @@ const Footer = () =>{
         <div className='footer'>
             <div className='info_container'>
                 <h6 className='textoAutor__footerContainer'>Hecho por Erick Martin Meza Alonso</h6>
-                <a className='email' href = "mailto:pemma20222002@gmail.com?">
+                <a className='emailAnchor' href = "mailto:pemma20222002@gmail.com?">
 Contáctame a este email
 </a>
             </div>

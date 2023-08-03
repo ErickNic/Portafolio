@@ -8,6 +8,16 @@
 .info_container{
     color: #585858;
     padding-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.emailAnchor{
+    color: #585858;
+}
+.emailAnchor:hover{
+    color: #353535;
+    text-decoration: underline;
 }
 .socialMedia__Footercontainer > a:nth-child(1){
     margin-right: 2rem;
