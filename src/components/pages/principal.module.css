@@ -24,6 +24,11 @@
 }
 .stackicons{
     margin-right: 1rem;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
 }
 .Main__Portafolio{
     flex-direction: column;

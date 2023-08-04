@@ -22,24 +22,36 @@
     }
 ]
 import img  from '../../assets/imagen/imagen.jpg'
-import react from 'react';
+import react, { useEffect, useState } from 'react';
 import clases from './ProyectCard.module.css'
 import ArrowLeftComponent from '../icons/arrowLeft';
 import ArrowRightComponent from '../icons/arrowRight';
+import { SliderProvider } from '../context/contextslider';
+import { DinamicDivs } from '../dinamicDiv/dinamicDiv';
 
 const ProyectCard = (props) =>{
-    const {items} = props;
-    console.log('items',items[0].name)
+    const [hover,setHover] = useState(false);
+    const handleMouseOver =() =>{
+        setHover(status => !status)
+    }
+    const handleMouseleave =() =>{
+        setHover(status => !status) 
+    }
     return(
-        <div className={clases.ProyectCard_Container}>
+        <SliderProvider>
+            <div className={clases.ProyectCard_Container}>
             <div className={clases.arrowLeft_container}>
                 <ArrowLeftComponent/>   
             </div>
-            <img src='https://img.freepik.com/vector-gratis/acuarela-real-fondo-rojo-san-valentin_1340-4006.jpg'  alt="React Image" className={clases.img}/>
+            <div className={clases.content__container}>
+                <img onMouseEnter={handleMouseOver} onMouseLeave={handleMouseleave} src='https://img.freepik.com/vector-gratis/acuarela-real-fondo-rojo-san-valentin_1340-4006.jpg'  alt="React Image" className={clases.img}/>
+                {!!hover&&<DinamicDivs active={hover}/>}
+            </div>
             <div className={clases.arrowRight_container}>
                 <ArrowRightComponent/>
             </div>
         </div>
+        </SliderProvider>
     )
 }
 
