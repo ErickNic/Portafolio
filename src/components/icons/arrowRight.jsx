@@ -6,12 +6,9 @@ function ArrowRightComponent(props) {
   const {index,dispatch} = useContext(sliderContext);
 
   const handleclick = () =>{
-    if(index.count===4) 
+    if(index.count===3) return;
     return dispatch({type:'INCREMENT'})
   }
-  useEffect(()=>{
-    console.log(index)
-  },[index]);
   return (
     <svg
       onClick={handleclick}
@@ -24,7 +21,7 @@ function ArrowRightComponent(props) {
     >
       <path
         d="M6 12h12m0 0l-5-5m5 5l-5 5"
-        stroke={index.count===4?'#9B9B9B':"#000"}
+        stroke={index.count===3?'#9B9B9B':"#000"}
         strokeWidth={2}
         strokeLinecap="round"
         strokeLinejoin="round"

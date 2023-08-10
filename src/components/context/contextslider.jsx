@@ -16,7 +16,7 @@ const counterReducer = (state, action) => {
       default:
         return state;
     }
-  };
+};
 
 const SliderProvider = ({children}) =>{
     const initialState = {count:0}
