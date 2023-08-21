@@ -1,0 +1,10 @@
+.main{
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 599px){
+    .main{
+        height: auto;
+    }
+}

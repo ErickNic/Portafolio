@@ -1,3 +1,4 @@
+import FormComponent from '../form /form';
 import './conectemos.css'
 import { Helmet } from "react-helmet";
 
@@ -8,6 +9,7 @@ const Conectemos = () =>{
             <title>Contáctame | ErickMMA</title>
         </Helmet>
         <div>
+            <FormComponent/>
             <h2>Contáctame</h2>
             <div>
                 <a className="correo" href="#" onClick={()=>{console.log('Onclick a tag')}}>pemma20222002@gmail.com</a>

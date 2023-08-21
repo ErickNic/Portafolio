@@ -44,3 +44,38 @@
     transform:scale(1.1);
     transition: ease-in-out 0.10s 40ms;
 }
+
+@media (max-width: 599px) {
+    *{
+        padding: 0;
+    }
+    .footer{
+        flex-direction: column;
+        height: auto;
+    }
+    .info_container{
+        order:2;
+        padding:0;
+    }
+    .sm_container{
+        order: 1;
+    }
+    .textoAutor__footerContainer{
+        display: flex;
+        justify-content: center;
+        padding-right: 1rem;
+        order: 2;
+        padding-bottom: 1rem;
+    }
+    .emailAnchor{
+        order: 1;
+        display: flex;
+        justify-content: center;
+        padding-right: 1rem;
+    }
+    .sm_container{
+        justify-content: center;
+        order: 1;
+        padding: 1rem 0 1.5rem 0;
+    }
+}
