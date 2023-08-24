@@ -1,0 +1,6 @@
+.arrow:hover path{
+    stroke: #575757;
+}
+.arrow:active path{
+    stroke: #3a3a3a;
+}

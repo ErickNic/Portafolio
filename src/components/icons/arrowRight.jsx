@@ -1,6 +1,7 @@
 import * as React from "react";
 import { useContext,useEffect } from "react"
 import { sliderContext } from "../context/contextslider"
+import clases from './arrow.module.css'
 
 function ArrowRightComponent(props) {
   const {index,dispatch} = useContext(sliderContext);
@@ -11,6 +12,7 @@ function ArrowRightComponent(props) {
   }
   return (
     <svg
+      className={index.count!==3?clases.arrow:null}
       onClick={handleclick}
       width="35px"
       height="35px"
