@@ -10,6 +10,7 @@
 }
 .hero__name{
     margin-bottom: 3rem;
+    width: 100%;
 }
 .hero__caption{
     max-width: 100%;
@@ -24,4 +25,12 @@
 
 .hero__nameSpan{
     color:#1B4015
+}
+
+@media (max-width:599px){
+    .hero__Container{
+        padding: 0;
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
 }
