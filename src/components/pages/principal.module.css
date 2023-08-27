@@ -3,6 +3,7 @@
     height: 100%;
     padding-top: 2rem;
 }
+
 .proyects_Title{
     margin-bottom: 1rem;
 }
@@ -38,10 +39,19 @@
     margin-right: 5rem;
     align-items: center;
 }
-
+@media (max-width: 1280px){
+    .heroMainContainer{
+        padding-top: 8rem;
+    }
+}
+@media(max-width:1050px){
+    .heroMainContainer{
+        padding-top: 2rem;
+    }
+}
 @media (max-width:599px){
     .contentHero__Container{
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: auto;
     }
     .contentHero__Container{
         padding: 2rem;
@@ -54,12 +64,17 @@
     .Main__Tecnolog{
         grid-column: 1/5;
         grid-row: 3/4;
-        margin:0
+        margin:0;
+        margin-top: 2rem;
     }
     .heroMainContainer{
         padding-top: 0;
+        height: auto;
     }
     .contentHero__Container{
         padding-top: 0;
+        height: auto;
+        max-height: 256vh;
     }
 }
+

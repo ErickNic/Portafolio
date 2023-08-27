@@ -5,6 +5,10 @@
     font-family: 'Roboto';
     text-decoration: none;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+body{
+    overflow-x: hidden;
 }
 *::selection{
     background-color: #a0e297  ;
@@ -40,5 +44,5 @@
     height: 100%;
 }
 .main{
-    height: 75vh;
+    height: 78vh;
 }

@@ -3,12 +3,11 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 1.5rem;
-    height: 75vh;
+    height: 78vh;
 }
 
 @media (max-width: 599px){
     .main{
         height: auto;
-        height: 132vh;
     }
 }

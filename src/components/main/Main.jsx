@@ -1,6 +1,7 @@
 import {
     Route,
-    Routes
+    Routes,
+    useResolvedPath
   } from 'react-router-dom';
 import Principal from '../pages/Principal';
 import Portfolio from '../pages/Portfolio';

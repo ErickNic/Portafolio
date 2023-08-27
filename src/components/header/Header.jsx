@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import NavLinks from './NavLinks';
 import { NavLink } from 'react-router-dom';
 import "./Header.css";
@@ -10,11 +10,12 @@ const Header = () =>{
         if(!!open){
             console.log('el valor inicial es true');
             document.body.classList.remove(clase)
-            document.body.style.overflow = 'scroll';
+            document.body.style.overflowY = 'scroll';
+            
         }else{
             console.log('el valor inicial es false')
             document.body.classList.add(clase)
-            document.body.style.overflow = 'hidden';
+            document.body.style.overflowY = 'hidden';
         }
         setOpen((prev)=>!prev);
         console.log(open)
@@ -35,10 +36,10 @@ const Header = () =>{
                 </div>
                 <ul className={`header_mobileVersion--Content ${open?'activeModal':''}`}>
                         <li>
-                            <NavLink to="/porfolio">Proyectos</NavLink>
+                            <NavLink to="/porfolio" onClick={buttonOnClickHandler}>Proyectos</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/conectemos">Contáctame</NavLink>
+                            <NavLink to="/conectemos" onClick={buttonOnClickHandler}>Contáctame</NavLink>
                         </li>
                 </ul>
         </div>
