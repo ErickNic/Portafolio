@@ -47,3 +47,8 @@ body{
     height: 78vh;
 }
  */
+ @media (min-width:599px){
+    .main{
+        height: auto;
+    }
+ }
