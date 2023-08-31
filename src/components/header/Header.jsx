@@ -29,9 +29,9 @@ const Header = () =>{
                 <div className='header__mobileVersion--container'>
                 <NavLink className="navlink" to='/'  exact>Erick M.M.A</NavLink>
                 <svg class="vbp-header-menu-button__svg" onClick={buttonOnClickHandler}>
-                <line x1="0" y1="50%" x2="100%" y2="50%" className="top" shapeRendering="crispEdges" />
-                <line x1="0" y1="50%" x2="100%" y2="50%" className="middle" shapeRendering="crispEdges" />
-                <line x1="0" y1="50%" x2="100%" y2="50%" className="bottom" shapeRendering="crispEdges" />
+                <line x1="0" y1="50%" fill='black' x2="100%" y2="50%" className="top" shapeRendering="crispEdges" />
+                <line x1="0" y1="50%" fill='black' x2="100%" y2="50%" className="middle" shapeRendering="crispEdges" />
+                <line x1="0" y1="50%" fill='black' x2="100%" y2="50%" className="bottom" shapeRendering="crispEdges" />
                 </svg>
                 </div>
                 <ul className={`header_mobileVersion--Content ${open?'activeModal':''}`}>
