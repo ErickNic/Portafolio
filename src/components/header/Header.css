@@ -92,6 +92,7 @@ li .anchorHeadera:focus::after{
   }
   
   .vbp-header-menu-button__svg .top {
+    color: #000000;
     transform: translateY(-35%);
     -webkit-transform: translateY(-35%);
     -moz-transform: translateY(35%);
@@ -176,7 +177,7 @@ li .anchorHeadera:focus::after{
       align-items: center;
     }
     .header_mobileVersion--Content{
-      display: block;
+      display: none;
       /* background: white; */
       backdrop-filter: blur(12px);
       width: 100%;
@@ -185,10 +186,10 @@ li .anchorHeadera:focus::after{
       left: 1440px;
       transition: 0.4s 10ms ease-in-out;
       position: absolute;
-      display: flex;
       z-index: 4;
     }
     .activeModal{
+      display: flex;
       left:0;
       transition: 0.5s 10ms ease-in-out;
     }
