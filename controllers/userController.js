@@ -124,3 +124,6 @@ export const changePasswordController  = async (req,res,next) =>{
     }
     res.json('compared Password');
 }
+export const uploadFile = async (req,res,next) =>{}
+export const getAlluploadedFile = async (req,res,next) =>{}
+export const DeleteaUploadedFile = async (req,res,next) =>{}
