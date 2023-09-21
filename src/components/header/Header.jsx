@@ -8,12 +8,10 @@ const Header = () =>{
     const clase = 'menu-open'
     const buttonOnClickHandler = () =>{
         if(!!open){
-            console.log('el valor inicial es true');
             document.body.classList.remove(clase)
             document.body.style.overflowY = 'scroll';
             
         }else{
-            console.log('el valor inicial es false')
             document.body.classList.add(clase)
             document.body.style.overflowY = 'hidden';
         }

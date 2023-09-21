@@ -1,6 +1,7 @@
 .navlink{
     color:rgb(3, 3, 3);
     text-decoration: none;
+    user-select: none;
 }
 *{
     box-sizing: border-box;
